@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+
+body { 
+    width: 1440px; 
+    margin: 0px auto 0px auto;  
+}
+
+header {
+    width: 1440px;
+    height: 800px;
+    border-radius: 0px; 
+    background: url("images/photos/image-header.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header nav {
+display: flex;
+}
+
+header a.sunnyside {
+    width: 170px;
+    height: 33px;
+    font-weight: bolder;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 3%;
+    font-family: sans-serif;
+    letter-spacing: -2px;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 64%;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    letter-spacing: -0.128571px;
+    margin-top: 4%;
+}
+
+header li {
+    margin-left: 8%;
+    margin-right: 11%;
+}
+
+header .contact {
+    font-family: 'Fraunces', serif;
+    border-radius: 28px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 7%;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: -7%;
+}
+
+header h1 {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+    margin-top: 6%;
+}
+
+header img.arrow {
+    margin-left: 49%;
+    margin-top: 4%
+}
+
+
+.firstrow {
+    display: flex;
+    width: 1440px;
+}
+
+.firstrowtxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 11%;
+    margin-right: 8%;
+}
+
+main h2 {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+}
+
+main p.h2desc {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.128571px;
+    color: #808397;
+    margin-top: -2%;
+}
+
+main p.learnmore {
+    font-family: 'Fraunces', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 2%;
+    color: #24303E;
+    background: rgba(250, 212, 0, 0.25);
+    mix-blend-mode: normal;
+    border-radius: 28px;
+    width: 137px;
+    height: 25px;
+}

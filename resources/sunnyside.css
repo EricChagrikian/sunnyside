@@ -97,6 +97,20 @@ header img.arrow {
     margin-right: 8%;
 }
 
+.secondrow {
+    display: flex;
+    width: 1440px;
+}
+
+.secondrowtxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 11%;
+    margin-right: 8%;
+}
+
 main h2 {
     font-family: 'Fraunces', serif;
     font-style: normal;
@@ -133,4 +147,8 @@ main p.learnmore {
     border-radius: 28px;
     width: 137px;
     height: 25px;
+}
+
+.thirdrow {
+    
 }

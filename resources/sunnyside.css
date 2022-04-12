@@ -1,18 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
+@media only screen and (max-width: 1300px) {
+    nav li {
+        display: none;
+    }
+    body { 
+        flex-wrap: wrap;
+    }
+    .firstrow {
+        flex-wrap: wrap-reverse;
+    }
+    .secondrow {
+        flex-wrap: wrap;
+    }
+    .thirdrow {
+        flex-wrap: wrap;
+    }
+}
 
 body { 
-    width: 1440px; 
+    max-width: 1440px; 
     margin: 0px auto 0px auto;  
 }
 
 header {
-    width: 1440px;
     height: 800px;
     border-radius: 0px; 
     background: url("images/photos/image-header.jpg");
     background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: center center;
     color: white;
 }
 
@@ -37,7 +54,6 @@ header ul {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-
     letter-spacing: -0.128571px;
     margin-top: 4%;
 }
@@ -79,7 +95,6 @@ header img.arrow {
 
 .firstrow {
     display: flex;
-    width: 1440px;
 }
 
 .firstrowtxt {
@@ -93,7 +108,6 @@ header img.arrow {
 
 .secondrow {
     display: flex;
-    width: 1440px;
 }
 
 .secondrowtxt {
@@ -145,7 +159,6 @@ main p.learnmore {
 
 .thirdrow {
     display: flex;
-    width: 1440px;
 }
 
 main h3 {
@@ -186,6 +199,8 @@ main p.h3desc {
     background: url("images/photos/image-photography.jpg");
     background-size: auto 100%;
     background-repeat: no-repeat;
+    width: 720px;
+    height: 600px;
 }
 
 main h4 {
@@ -204,7 +219,6 @@ main h4 {
 }
 
 .clients {
-    width: 1440px;
     display: flex;
 }
 
@@ -304,7 +318,6 @@ main h4 {
 
 .endimg {
     display: flex;
-    width: 1440px;
 }
 
 .endimg img {
@@ -313,7 +326,6 @@ main h4 {
 }
 
 footer {
-    width: 1440px;
     height: 350px;
     background: #90D4C6;
     text-align: center;
@@ -357,4 +369,16 @@ footer li {
 
 .attribution {
     margin-top: 2%;
+}
+
+.responsive {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.endimg {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
 }

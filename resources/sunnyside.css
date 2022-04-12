@@ -150,5 +150,46 @@ main p.learnmore {
 }
 
 .thirdrow {
-    
+    display: flex;
+    width: 1440px;
+}
+
+main h3 {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #24554A;
+    margin-top: 55%;
+}
+
+main p.h3desc {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.114286px;
+    color: #3E7467;
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+.thirdrowleftimg {
+    background: url("images/photos/image-graphic-design.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 600px;
+}
+
+
+.thirdrowrightimg {
+    background: url("images/photos/image-photography.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }

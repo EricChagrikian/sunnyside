@@ -193,3 +193,117 @@ main p.h3desc {
     background-size: auto 100%;
     background-repeat: no-repeat;
 }
+
+main h4 {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #A7AAAD;
+    margin-left: -2%;
+    margin-bottom: 5%;
+    margin-top: 11%;
+}
+
+.clients {
+    width: 1440px;
+    display: flex;
+}
+
+.clients img {  
+    width: 72px;
+    border-radius: 50%;
+}
+
+.emilydesc {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    margin-right: 5%;
+    margin-top: 17%;
+}
+
+.thomasdesc {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    margin-left: 8%;
+    margin-right: 9%;
+    margin-top: 15%;
+}
+
+.jenniedesc {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+    margin-right: 5%;
+    margin-top: 17%;
+}
+
+.emily {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.thomas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -12%;
+    margin-right: 12%;
+}
+
+.jennie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -12%;
+    margin-right: 11%;
+    
+}
+
+.clients h5 {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+    margin-top: 15%;
+    margin-bottom: -2%
+}
+
+.job {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+}

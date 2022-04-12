@@ -16,11 +16,43 @@
     .thirdrow {
         flex-wrap: wrap;
     }
+
+    .clients {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h4 {
+        margin-top: 5%;
+    }
+
+    .emily {
+        margin-top: 10%;
+    }
+    .thomas {
+        padding-left: 24%;
+        margin-top: 10%;
+    }
+
+    .jennie {
+        padding-left: 24%;
+        margin-top: 10%;
+    }
+    .endimg {
+        display: flex;
+        flex-flow: column;
+    }
+    .endimg img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
+
 
 body { 
     max-width: 1440px; 
     margin: 0px auto 0px auto;  
+    flex-grow: 1;
 }
 
 header {
@@ -79,7 +111,8 @@ header h1 {
     font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 3.6vw;   
+    font-size: 56px;
+    line-height: 69px;
     text-align: center;
     letter-spacing: 8.75px;
     text-transform: uppercase;
@@ -114,7 +147,7 @@ header img.arrow {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-left: 8%;
+    margin-left: 11%;
     margin-right: 8%;
 }
 
@@ -122,24 +155,17 @@ main h2 {
     font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
+    font-size: 40px;
     line-height: 49px;
     letter-spacing: -0.285714px;
     color: #24303E;
-}
-
-.firstrowtxt h2 {
-    font-size: 2.7vw;
-}
-
-.secondrowtxt h2 {
-    font-size: 2.6vw;
 }
 
 main p.h2desc {
     font-family: 'Barlow', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.18vw;
+    font-size: 18px;
     line-height: 30px;
     letter-spacing: -0.128571px;
     color: #808397;
@@ -151,6 +177,7 @@ main p.learnmore {
     font-style: normal;
     font-weight: 900;
     font-size: 15px;
+    line-height: 25px;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-left: 2%;
@@ -170,7 +197,8 @@ main h3 {
     font-family: 'Fraunces', serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 1.8vw;
+    font-size: 28px;
+    line-height: 35px;
     text-align: center;
     letter-spacing: -0.2px;
     color: #24554A;
@@ -181,7 +209,7 @@ main p.h3desc {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 600;
-    font-size: 1.1vw;
+    font-size: 16px;
     line-height: 27px;
     text-align: center;
     letter-spacing: -0.114286px;
@@ -194,8 +222,9 @@ main p.h3desc {
     background: url("images/photos/image-graphic-design.jpg");
     background-size: auto 100%;
     background-repeat: no-repeat;
-    max-width: 50%;
-    max-height: 600px;
+    background-position: center center;
+    max-width: 720px;
+    height: 600px;
 }
 
 
@@ -203,8 +232,9 @@ main p.h3desc {
     background: url("images/photos/image-photography.jpg");
     background-size: auto 100%;
     background-repeat: no-repeat;
-    width: 50%;
-    height: 600px;
+    background-position: center center;
+    max-width: 720px;
+    height: auto;
 }
 
 main h4 {
@@ -321,12 +351,11 @@ main h4 {
 }
 
 .endimg {
-    display: flex;
+    max-width: 50%;
 }
 
-.endimg img {
-    width: 360px;
-    height: 447px;
+.firstendimg {
+    flex-wrap: nowrap;
 }
 
 footer {
@@ -382,8 +411,5 @@ footer li {
 
 .endimg {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    max-height: 100%;
     margin-top: 10%;
 }

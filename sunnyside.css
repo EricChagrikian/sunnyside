@@ -3,6 +3,12 @@
 @media only screen and (max-width: 1300px) {
     nav li {
         display: none;
+        position: relative;
+        margin-left: 2%;
+    }
+
+    nav {
+        size: 50%;
     }
 
     header {
@@ -62,6 +68,13 @@
         margin-right: 5%;
         max-width: 720px;
     }
+
+    .firstendimg {
+        flex-wrap: nowrap;
+    }
+    .secondendimg {
+        flex-wrap: nowrap;
+    }
 }
 
 
@@ -98,7 +111,7 @@ header ul {
     flex-direction: row;
     justify-content: flex-end;
     margin-left: 64%;
-    font-family: 'Barlow';
+    font-family: 'Barlow';  
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
